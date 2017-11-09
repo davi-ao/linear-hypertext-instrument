@@ -1,0 +1,59 @@
+a {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #551A8B;
+}
+
+p {
+    font-size: 16px;
+    /* https://www.smashingmagazine.com/2011/10/16-pixels-body-copy-anything-less-costly-mistake/ */
+    text-align: justify;
+}
+
+#container {
+    margin-top: 75px;
+}
+
+#exit {
+    margin-right: 1px;
+}
+
+#notes {
+    position: relative;
+}
+
+#notes > div {
+    height: 80%;
+    position: fixed;
+    width: 439px;
+}
+
+#notesTextarea {
+    height: 90%;
+    resize: none;
+    width: 100%;
+}
+
+#toolbar {
+    background: #FFF;
+    border-bottom: 2px solid #EEE;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    position: fixed;
+    z-index: 1;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+.loading {
+    cursor: wait;
+}
+
+.vocabulary {
+    border-bottom: 1px dotted;
+    cursor: pointer;
+}

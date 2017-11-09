@@ -1,0 +1,29 @@
+#graph > div{
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+}
+
+.main-graph{
+    background: #77BFA3;
+}
+
+div[class$='-1-graph']{
+    background: #98C9A3;
+}
+
+div[class$='-2-graph']{
+    background: #BFD8BD;
+}
+
+div[class$='-3-graph']{
+    background: #DDE7C7;
+}
+
+div[class$='-4-graph']{
+    background: #EDEEC9;
+}
+
+div[class$='-5-graph']{
+    background: #FFFFEB;
+}
